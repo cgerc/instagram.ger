@@ -1,6 +1,23 @@
-.class nav{
+.nav{
+justify-content: center;
+align-items: center;
+background-color: white;
 
 }
 .contenedor{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
 
+}
+.post{
+    border: 2px solid greenyellow;
+    background-color: azure;
+    width:500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
