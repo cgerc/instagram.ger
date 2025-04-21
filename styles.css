@@ -1,7 +1,9 @@
 .nav{
-justify-content: center;
+display:flex;
+    justify-content: center;
 align-items: center;
-background-color: white;
+background-color: rgba(255, 255, 0, 0.162);
+margin-bottom: 50px;
 
 }
 .contenedor{
@@ -9,15 +11,32 @@ background-color: white;
     align-items: center;
     display:flex;
     flex-direction: column;
-
 }
 .post{
-    border: 2px solid greenyellow;
+    border: 2px solid black;
+margin-bottom: 50px;
     background-color: azure;
-    width:500px;
-    height: 400px;
+   width: 500px;
+   height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.post-header{
+   
+    background-color: azure;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.descripcion {
+    display: flex;
+    align-items: start;
+    width: 450px;
+    font-family: 'Courier New', Courier, monospace ;
+    
 }
